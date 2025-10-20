@@ -160,10 +160,10 @@ private:
 				return false;
 			}
 
-			if ((data->style_ == DialogStyle_PASSWORD || data->style_ == DialogStyle_INPUT || data->style_ == DialogStyle_MSGBOX) && sendDialogResponse.ListItem != -1)
+			/*if ((data->style_ == DialogStyle_PASSWORD || data->style_ == DialogStyle_INPUT || data->style_ == DialogStyle_MSGBOX) && sendDialogResponse.ListItem != -1)
 			{
 				return false;
-			}
+			}*/
 
 			if ((data->style_ == DialogStyle_LIST || data->style_ == DialogStyle_TABLIST || data->style_ == DialogStyle_TABLIST_HEADERS) && data->body_.length() > 0)
 			{
