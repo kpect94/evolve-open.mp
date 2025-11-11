@@ -1627,8 +1627,8 @@ removeWeapon_has_weapon:
 
 		// Set virtual world and interior to target's, consider this as a samp bug fix,
 		// since in samp you have to do this manually yourself then call spectate functions
-		setVirtualWorld(target.getVirtualWorld());
-		setInterior(target.getInterior());
+		//setVirtualWorld(target.getVirtualWorld());
+		//setInterior(target.getInterior());
 
 		setState(PlayerState_Spectating);
 		pos_ = target.getPosition();
@@ -1654,8 +1654,8 @@ removeWeapon_has_weapon:
 
 		// Set virtual world and interior to target's, consider this as a samp bug fix,
 		// since in samp you have to do this manually yourself then call spectate functions
-		setVirtualWorld(target.getVirtualWorld());
-		setInterior(target.getInterior());
+		//setVirtualWorld(target.getVirtualWorld());
+		//setInterior(target.getInterior());
 
 		setState(PlayerState_Spectating);
 		pos_ = target.getPosition();
